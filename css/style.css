@@ -1,0 +1,39 @@
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    user-select: none;
+}
+#seek-bar{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#container{
+    width: 330px;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 6px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+
+}
+#play-pause-button{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#current-time{
+    width: 50px;
+    padding-left: 5px;
+
+}
+#total-time{
+    width: 50px;
+    padding-left: 0px;
+    
+}
